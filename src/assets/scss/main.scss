@@ -1,0 +1,13 @@
+@import './utils/fonts.scss';
+@import './utils/reset.scss';
+
+body {
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+	// font-weight: $mainFontWeight;
+	// line-height: $mainLineHeight;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
