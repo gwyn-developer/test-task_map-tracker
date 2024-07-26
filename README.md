@@ -1,30 +1,30 @@
 # test-task_map-tracker
 
-SPA-приложение, разработанное на Vue3/Pinia/Vite/Vue-Router/SCSS/TS/Leaflet/API - загрузка иерархических данных о транспорте и геозонах при помощи API, отображение в виде списков с возможностью выбора трека транспорта или геозоны для их отображения на карте.<br/>
+SPA Vue3 app with Vue3/Pinia/Vite/Vue-Router/SCSS/TS/Leaflet/API - loading hierarchical data on transport and geozones using API, displaying as lists with the ability to select a transport track or geozone to display them on the map.<br/>
 
-## Запуск проекта локально:
+## Run the project locally:
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 
 ```
 git clone https://github.com/gwyn-developer/test-task_map-tracker.git
 ```
 
-2. Перейдите в папку проекта:
+2. Go to the project folder:
 
 ```
 cd test-task_map-tracker
 ```
 
-3. Установите зависимости проекта:
+3. Install project dependencies:
 
 ```
 npm install
 ```
 
-1. Создайте файл `.env` в корне проекта. Этот файл будет содержать конфигурационные данные, необходимые для работы с API. Скопируйте содержимое файла `.env.example` в новый файл `.env`, заменив плейсхолдеры (`YOUR_LOGIN`, `YOUR_PASSWORD`, `YOUR_SERVER`, `YOUR_OFFSET`) на актуальные значения логина, пароля, сервера и смещения от UTC в минутах.
+1. Create a `.env` file in the root of the project. This file will contain the configuration data required to work with the API. Copy the contents of the `.env.example` file to a new `.env` file, replacing the placeholders (`YOUR_LOGIN`, `YOUR_PASSWORD`, `YOUR_SERVER`, `YOUR_OFFSET`) with the current values ​​of the login, password, server and UTC offset in minutes.
 
-2. Запустите проект локально:
+2. Run the project locally:
 
 ```
 npm run dev
